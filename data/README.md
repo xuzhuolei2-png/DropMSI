@@ -1,6 +1,6 @@
 # MSI Dataset for Testing
 
-Due to space limitations of github, mouse fetus data acquired using MALDI can be download in 
+Due to space limitations of github, mouse kidney MSI data can be download in 
 
     https://drive.google.com/drive/folders/1KdsljDg7CGpjUVptq5NJ_nvZnkfPMxSo?usp=drive_link
 
