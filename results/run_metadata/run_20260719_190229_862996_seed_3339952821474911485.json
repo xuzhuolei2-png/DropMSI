@@ -1,0 +1,27 @@
+{
+    "run_id": "20260719_190229_862996",
+    "status": "completed",
+    "numpy_seed": 42,
+    "base_torch_seed": 3339952821474911485,
+    "stage1_torch_seed": 3339952821474911485,
+    "stage2_torch_seed": 3339952821474911486,
+    "input_shape": [
+        162,
+        207
+    ],
+    "num_nodes": 33534,
+    "data_dir": "/home/xuzl/GAIN-Pytorch/final_project/proprecessed_data/brain10um",
+    "output_dir": "/home/xuzl/GAIN-Pytorch/final_project/results/brain10um/DropMSI",
+    "output_filename": "DropMSI.csv",
+    "gpu_id": 2,
+    "gpu_name": "NVIDIA GeForce RTX 3090",
+    "torch_version": "2.5.1",
+    "cuda_version": "12.1",
+    "cuda_available": true,
+    "feature_dimension": 690,
+    "best_validation_mae": 0.08123883126997522,
+    "original_imputation_mae": 0.08123897016048431,
+    "final_corrected_mae": 0.08123897016048431,
+    "best_model_path": "/home/xuzl/GAIN-Pytorch/final_project/results/brain10um/DropMSI/best_imputation.pth",
+    "final_output_path": "/home/xuzl/GAIN-Pytorch/final_project/results/brain10um/DropMSI/DropMSI.csv"
+}
