@@ -33,7 +33,7 @@ if you want to impute mouse kidney MSI data, you can run:
 python run.py \
     --input_NPZ data/kidney/data_132_205.npz \
     --input_Shape 132 205 \
-    --processed_Dir proprecessed_data/kidney \
+    --processed_Dir preprocessed_data/kidney \
     --output_Dir results/kidney/DropMSI \
     --output_File DropMSI.csv \
     --gpu_ID 0
@@ -45,7 +45,7 @@ if you want to impute high-resolution mouse hippocampus MSI data acquired at 10 
 python run.py \
     --input_NPZ data/brain10um/brain10um_162_207.npz \
     --input_Shape 162 207 \
-    --processed_Dir proprecessed_data/brain10um \
+    --processed_Dir preprocessed_data/brain10um \
     --output_Dir results/brain10um/DropMSI \
     --output_File DropMSI.csv \
     --gpu_ID 0
@@ -57,7 +57,7 @@ if you want to impute mouse HCC MSI data, you can run:
 python run.py \
     --input_NPZ data/HCC/HCC_711_1658.npz \
     --input_Shape 711 1658 \
-    --processed_Dir proprecessed_data/HCC \
+    --processed_Dir preprocessed_data/HCC \
     --output_Dir results/HCC/DropMSI \
     --output_File DropMSI.csv \
     --gpu_ID 0
