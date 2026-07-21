@@ -4,7 +4,7 @@ Unified entry point of the project.
 python run.py \
     --input_NPZ data/kidney/data_132_205.npz \
     --input_Shape 132 205 \
-    --processed_Dir proprecessed_data/kidney \
+    --processed_Dir preprocessed_data/kidney \
     --output_Dir results/kidney/DropMSI \
     --output_File DropMSI.csv \
     --gpu_ID 2
@@ -12,7 +12,7 @@ python run.py \
 python run.py \
     --input_NPZ data/brain10um/brain10um_162_207.npz \
     --input_Shape 162 207 \
-    --processed_Dir proprecessed_data/brain10um \
+    --processed_Dir preprocessed_data/brain10um \
     --output_Dir results/brain10um/DropMSI \
     --output_File DropMSI.csv \
     --gpu_ID 2
@@ -20,7 +20,7 @@ python run.py \
 python run.py \
     --input_NPZ data/HCC/HCC_711_1658.npz \
     --input_Shape 711 1658 \
-    --processed_Dir proprecessed_data/HCC \
+    --processed_Dir preprocessed_data/HCC \
     --output_Dir results/HCC/DropMSI \
     --output_File DropMSI.csv \
     --gpu_ID 2
@@ -50,7 +50,7 @@ DEFAULT_INPUT_NPZ = (PROJECT_ROOT / "data"/ "kidney"/ "data_132_205.npz")
 
 DEFAULT_INPUT_SHAPE = [132,205]
 
-DEFAULT_PROCESSED_DIR = (PROJECT_ROOT/ "proprecessed_data"/ "kidney")
+DEFAULT_PROCESSED_DIR = (PROJECT_ROOT/ "preprocessed_data"/ "kidney")
 
 DEFAULT_OUTPUT_DIR = (PROJECT_ROOT/ "results"/ "kidney"/"DropMSI")
 
